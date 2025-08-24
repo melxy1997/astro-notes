@@ -1,12 +1,18 @@
 [build]
   # 构建命令
-  command = "npm run build"
+  command = "npx playwright install --with-deps chromium && npm run build"
   # 构建输出目录
   publish = "dist"
 
 [build.environment]
   # Node.js 版本
   NODE_VERSION = "18"
+
+# 首页重定向到博客文章页面
+[[redirects]]
+  from = "/"
+  to = "/blog/posts/"
+  status = 301
 
 # SPA 路由重定向规则 - 处理客户端路由
 [[redirects]]

@@ -1,4 +1,7 @@
 # Netlify redirects file
+# 首页重定向到博客文章页面
+/     /blog/posts/  301
+
 # 处理 SPA 路由，将所有未匹配的路径重定向到 index.html
 /*    /index.html   200
 

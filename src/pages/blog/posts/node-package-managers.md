@@ -4,7 +4,7 @@ title: 对Node包管理工具的理解
 author: Gemini
 description: "对Node包管理工具的理解"
 image:
-  url: "/images/posts/markdown.webp"
+  url: "/images/posts/node-package-manager.jpg"
   alt: "Example of Node Package Managers"
 pubDate: 2025-08-22
 tags:

@@ -110,6 +110,22 @@ export const languages: Record<string, Language> = {
     name: "Python",
     iconName: "python",
   },
+  react: {
+    name: "React",
+    iconName: "react",
+  },
+  redux: {
+    name: "Redux",
+    iconName: "redux",
+  },
+  vue: {
+    name: "Vue",
+    iconName: "vue",
+  },
+  rust: {
+    name: "Rust",
+    iconName: "rust",
+  },
 };
 
 export const getLanguage = (lang: string): Language => {
