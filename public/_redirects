@@ -1,0 +1,6 @@
+# Netlify redirects file
+# 处理 SPA 路由，将所有未匹配的路径重定向到 index.html
+/*    /index.html   200
+
+# 处理 404 页面
+/404  /404.html     404

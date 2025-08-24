@@ -29,14 +29,12 @@ Developed with **Astro** and styled with **TailwindCSS**, Trip.com Flt. focuses 
 - CSS Modules
 - Redux-Observable
 
-
 ## 🌐 Demo
 
-👉 [View live demo](https://www.trip.com/flights) 
+👉 [View live demo](https://www.trip.com/flights)
 
 ## 🎯 Objective
 
 The purpose of Trip.com Flt. is to combine style and functionality in a clean interface that enhances content without overwhelming the user. It's an exercise in design and development focused on visual detail and user experience.
-
 
 🚀 *Developed by Melxy1997.*
