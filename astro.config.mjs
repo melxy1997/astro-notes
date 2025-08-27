@@ -1,6 +1,5 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
-import rehypeMermaid from 'rehype-mermaid';
 import tailwindcss from "@tailwindcss/vite";
 import preact from "@astrojs/preact";
 import sitemap from "@astrojs/sitemap"
@@ -26,6 +25,5 @@ export default defineConfig({
       type: "shiki",
       excludeLangs: ["mermaid"]
     },
-    rehypePlugins: [[rehypeMermaid, { strategy: "img-svg", dark: true, colorScheme: "forest" }]]
   },
 });
